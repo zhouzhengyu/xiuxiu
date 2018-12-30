@@ -12,12 +12,12 @@ $(document).ready(function(){
         var p=[i];
         var n='请查看'+[i]+'号身份';
         var m='隐藏并传递给'+[i+1]+'号';
-        var text='<li class="loading" id="loading'+i+'"><p class="luck" id="luck'+i+'"></p><span class="cover" id="cover'+i+'"><p class="loadingThree1" id="loadingThree1'+i+'"></p><p class="background" id="background'+i+'"></p></span><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="pass" id="deliver'+i+'" onclick="pass(id);"></button></li>';
+        var text='<li class="loading" id="loading'+i+'"><p class="luck" id="luck'+i+'"></p><span class="cover" id="cover'+i+'"><p class="loadingFour" id="loadingFour'+i+'"></p><p class="background" id="background'+i+'"></p></span><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="pass" id="deliver'+i+'" onclick="pass(id);"></button></li>';
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
         a.innerHTML =p;
-        var loadingThree1 = document.getElementById('loadingThree1'+i+'');
-        loadingThree1.innerHTML =p;
+        var Four = document.getElementById('loadingFour'+i+'');
+            Four.innerHTML =p;
         var button = document.getElementById('click'+i+'');
         button.innerHTML =n; 
         var luck=document.getElementById('luck'+i+'');
@@ -26,9 +26,7 @@ $(document).ready(function(){
         background.style.backgroundImage="url('../img/2.png')";  
         var deliver=document.getElementById('deliver'+i+'');
         deliver.innerHTML =m;  
-
-    } 
-    
+    }   
     var list = document.getElementsByClassName('two');
     if(number==9){
         arr=['预言家','女巫','猎人','狼人','平民','狼人','平民','狼人','平民'];
@@ -68,6 +66,7 @@ $(document).ready(function(){
 
 function see(id){
     var i=parseInt(id.substr(id.indexOf("k")+1));
+    var j=i+1;
     var math = document.getElementsByClassName('loading');
     var s=math.length;
     var deliver=document.getElementById('deliver'+s+'');
@@ -77,6 +76,8 @@ function see(id){
         $("#click"+i).hide(); 
         $("#deliver"+i).show(); 
     }else{
+    var m=document.getElementById('loadingThree'+s+'');
+        m.innerHTML=s;
         $("#cover"+i).hide();
         $("#background"+i).hide(); 
         $("#click"+i).hide(); 
