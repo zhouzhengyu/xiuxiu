@@ -1,4 +1,4 @@
-var number,arr,b;
+﻿var number,arr,b;
 $(document).ready(function(){
     var url=decodeURI(window.location.search).slice(1); 
         b= url.substr(url.indexOf("=")+1);
@@ -51,6 +51,7 @@ function die(){
     var list = document.getElementsByClassName('two');
     var die=document.getElementById('die'+i+'');
     var button = document.getElementById('click'+i+'');
+    var r=[i]+"号死亡状态";
     $.confirm({
         title:'上帝提示',
         content:'请确定玩家是否死亡？',
@@ -66,8 +67,8 @@ function die(){
                     die.innerHTML="死亡";
                     die.style.color="#fff";	  			
                     button.style.backgroundColor="#ccc";   
-                    button.innerHTML="死亡状态";	
-                    button.style.color="#fff";	  									
+                    button.innerHTML=r;	
+                    button.style.color="#fff";	      									
                 }
               },
            cancel: {
