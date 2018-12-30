@@ -1,0 +1,126 @@
+html{
+    font-size: 400%;
+}
+.cotainer{
+    display: flex;
+    margin-top: 0.4rem;
+    width: 100%;
+    min-width: 2rem;
+    min-height: 2rem;
+    font-family: sans-serif;
+}
+.left{
+    display: flex;
+    flex: 1;
+}
+.col-xs-1{
+    width: 3.4rem;
+}
+.right{
+    display: flex;
+    flex: 1;
+}
+.loading{
+    float: left;
+    width: 3rem;
+    height: 4rem;
+    font-size: 0.25rem;
+    border-radius:0.1rem; 
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    background-size: 100%;
+    background-color: rgb(251, 180, 53);
+}
+.luck{
+    position: absolute;
+    background-size: 100%;
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+    width: 1.3rem;
+    height: 1.5rem;
+    outline: 0;
+    border: none;
+}
+.cover{
+    position: absolute;
+    width: 3rem;
+    height: 4rem;
+    outline: 0;
+    border: none;
+    border-radius: 0.1rem;
+    background-color: rgb(251, 180, 53);
+}
+.background{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+    outline: 0;
+    border: none;
+}
+.loadingThree1{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-top: -0.27rem;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+    line-height: 0.49rem;
+    color: red;
+    background-color: white;
+    border: 4px rgb(251, 180, 53) solid;
+}
+.loadingThree{
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-top: -3.785rem;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+    line-height: 0.49rem;
+    color: red;
+    background-color: white;
+    border: 4px rgb(251, 180, 53) solid;
+}
+.see{
+    margin-top: 0.8rem;
+    width: 3rem;
+    height: 0.6rem;
+    text-align: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    border-radius: 0.1rem;
+    color: white;
+    background-color: rgb(251, 180, 53);
+}
+.pass{
+    margin-top: 0.8rem;
+    width: 3rem;
+    height: 0.6rem;
+    text-align: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    border-radius: 0.1rem;
+    color: white;
+    background-color: rgb(251, 180, 53);
+}
+.two{
+    float: left;
+    width: 2rem;
+    font-size: 0.4rem;
+    margin-top: 2.8rem;
+    margin-left: 0.6rem;
+    font-weight: bold;
+    color: rgb(41, 189, 224);
+}

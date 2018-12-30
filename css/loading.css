@@ -1,0 +1,214 @@
+html{
+    font-size: 625%;
+}
+.cotainer{
+    display: flex;
+    width: 100%;
+    min-width: 40rem;
+    font-family: sans-serif;
+}
+.left{
+    display: flex;
+    flex: 1;
+}
+.col-xs-1{
+    width: 40rem !important;
+}
+.right{
+    display: flex;
+    flex: 1;
+}
+.main{
+    float: left;
+    width: 40rem;
+    height:29rem;
+}
+.text{
+    float: left;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height:4rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.die{
+    float: left;
+    margin-left: 7rem;
+    margin-top: -10rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    border-radius:2rem; 
+    background-color: rgb(245, 201, 0);
+}
+.die:hover{
+    background-color: rgb(207, 194, 170);
+}
+.people{
+    float: left;
+    width: 8rem;
+    height: 2.6rem;
+    font-weight: bold;
+}
+#input{
+    float: left;
+    width: 5rem;
+    height: 2.6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    outline: 0;
+    border: none;
+    background-color: rgb(211, 209, 206);
+}
+#button{
+    float: right;
+    width: 5rem;
+    height: 2.6rem;
+    border-radius:0.5rem; 
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(25, 81, 177);
+}
+#button:hover{
+    background-color: #ff8000;
+}
+.content{
+    float: left;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height:35rem;
+    border: 0.1rem rgb(138, 137, 137) solid;
+}
+.match{
+    float: left;
+    margin-left: 1rem;
+    margin-top: 9.5rem;
+    line-height: 4rem;
+    width: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.span{
+    float: left;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    line-height: 2.5rem;
+    width: 15rem;
+    height: 3rem;
+    color: rgb(32, 32, 32);
+    font-size: 2rem;
+}
+.describe{
+    float: left;
+    margin-left: 5rem;
+    line-height: 3.4rem;
+    width: 9.5rem;
+    height: 3rem;
+    color: rgb(32, 32, 32);
+    font-size: 2rem;
+}
+.loading{
+    float: left;
+    width: 7rem;
+    height: 7rem;
+    margin: 3rem;
+    font-size: 0.25rem;
+    border-radius:0.7rem; 
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    background-size: 100%;
+    background-color: rgb(245, 201, 0);
+}
+.death{
+    position: absolute;
+    width: 7rem;
+    height: 7.5rem;
+    outline: 0;
+    border: none;
+    font-size: 2rem;
+    font-family: cursive;
+    color: white;
+    line-height: 7.5rem;
+    border-radius:0.7rem; 
+}
+.background{
+    position: absolute;
+    background-size: 100%;
+    width: 7rem;
+    height: 7.5rem;
+    outline: 0;
+    border: none;
+    border-radius:0.7rem; 
+    background-color: rgb(245, 201, 0);
+}
+.loadingThree{
+    float: left;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.8rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(131, 176, 154);
+}
+.see{
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: -0.9rem;
+    outline: 0;
+    border: none;
+    border-radius:0.5rem; 
+    background-color: rgb(245, 201, 0);
+}
+.pass{
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -0.9rem;
+    outline: 0;
+    border: none;
+    border-radius:0.5rem; 
+    background-color: rgb(245, 201, 0);
+}
+.two{
+    float: left;
+    width: 7rem;
+    height: 4.2rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: rgb(41, 189, 224);
+}
+.start{
+    float: left;
+    margin-top: 3rem;
+    width: 25rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    outline: 0;
+    border: none;
+    border-radius:0.5rem; 
+    margin: 1rem;
+    background-color: rgb(245, 201, 0);
+    cursor: pointer;
+}
+.start:hover{
+    background-color: rgb(207, 194, 170);
+}
