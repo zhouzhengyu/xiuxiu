@@ -1,4 +1,4 @@
-﻿var number,arr,b;
+var number,arr,b;
 $(document).ready(function(){
     var url=decodeURI(window.location.search).slice(1); 
         b= url.substr(url.indexOf("=")+1);
@@ -42,7 +42,7 @@ if(n.innerHTML==""){
 }else{
     $.alert({
         title:'上帝提示',
-        content:' 玩家已经死亡',
+        content:[i]+'号玩家已经死亡',
         type:'red',
     })
 }
@@ -54,14 +54,14 @@ function die(){
     var r=[i]+"号死亡状态";
     $.confirm({
         title:'上帝提示',
-        content:'请确定玩家是否死亡？',
+        content:'请确定'+[i]+'号玩家是否死亡？',
         type:'red',
         buttons:{
             ok:{
                 text:'确定',
                 btnClass:'btn-primary',
                 action:function(){
-                    n.innerHTML =list[i].innerHTML; 
+                    n.innerHTML =list[i-1].innerHTML; 
                     $("#death"+i).show(); 	
                     die.style.backgroundColor="#ccc"; 
                     die.innerHTML="死亡";
