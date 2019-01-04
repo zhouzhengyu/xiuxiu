@@ -66,7 +66,6 @@ $(document).ready(function(){
 
 function see(id){
     var i=parseInt(id.substr(id.indexOf("k")+1));
-    var j=i+1;
     var math = document.getElementsByClassName('loading');
     var s=math.length;
     var deliver=document.getElementById('deliver'+s+'');
