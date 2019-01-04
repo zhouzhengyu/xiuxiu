@@ -125,7 +125,7 @@ function end(){
     }else if(num1==0){
         $.alert({
             title:'上帝提示',
-            content:'游戏结束-狼人失败',
+            content:'游戏结束-平民和神获胜',
             type:'red',
         })
     }
