@@ -117,16 +117,35 @@ function win(){
 }
 function end(){
     if(num==0||num2==0){
-        $.alert({
+        $.confirm({
             title:'上帝提示',
             content:'游戏结束-狼人获胜',
             type:'red',
-        })
+            buttons:{
+                ok:{
+                    text:'确定',
+                    btnClass:'btn-primary',
+                    action:function(){
+                        window.location.href="match.html";  
+                    }
+                  }
+                }
+            })
+       
     }else if(num1==0){
-        $.alert({
+        $.confirm({
             title:'上帝提示',
             content:'游戏结束-平民和神获胜',
             type:'red',
-        })
+            buttons:{
+                ok:{
+                    text:'确定',
+                    btnClass:'btn-primary',
+                    action:function(){
+                        window.location.href="match.html";  
+                    }
+                  }
+                }
+            })
     }
 }
