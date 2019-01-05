@@ -2,7 +2,16 @@ $(document).ready(function(){
 var p='预言家：1名';
 var p1;
 var number;
-$('#button').on('click',function(){
+$('#input').on("keyup", function(a) {
+    if (a.which == 13) {
+        login();
+    }else{
+        $('#button').on('click',function(){
+            login();
+        })
+    }
+})        
+function login(){
     $(".span").empty();
     $(".describe").empty();
     number=$("#input").val();
@@ -31,7 +40,7 @@ $('#button').on('click',function(){
         type:'red',
     })
 }
-})
+}
 $('#start').on('click',function(){
     if(number==null){
         $.alert({
