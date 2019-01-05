@@ -4,7 +4,7 @@ html{
 @media only screen and (min-width:10rem){
 .cotainer{
     display: flex;
-    margin-top: 0.4rem;
+    margin-top: 2rem;
     width: 100%;
     min-width: 2rem;
     min-height: 2rem;
