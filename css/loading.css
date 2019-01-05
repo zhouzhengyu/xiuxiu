@@ -1,7 +1,7 @@
 html{
     font-size: 625%;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (min-width:10rem){
 .cotainer{
     display: flex;
     width: 100%;
