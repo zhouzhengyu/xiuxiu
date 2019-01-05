@@ -1,6 +1,7 @@
 html{
     font-size: 400%;
 }
+@media only screen and (min-width:10rem){
 .cotainer{
     display: flex;
     margin-top: 0.4rem;
@@ -123,4 +124,5 @@ html{
     margin-left: 0.6rem;
     font-weight: bold;
     color: rgb(41, 189, 224);
+}
 }
