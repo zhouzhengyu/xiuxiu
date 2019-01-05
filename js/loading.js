@@ -8,7 +8,7 @@ $(document).ready(function(){
         
     for(var i=1;i<=number;i++){
         var p=[i]+'号';
-        var n='请查看'+[i]+'号身份';
+        var n='查看'+[i]+'号身份';
         var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two" id="role'+i+'"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">存活</button></li>';
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
@@ -46,7 +46,7 @@ function cum(){
 function see(id){
     var i = id.substr(id.indexOf("k")+1);
     var button= document.getElementById('click'+i+'');
-    var p='请查看'+[i]+'号身份';
+    var p='查看'+[i]+'号身份';
     $("#background"+i).toggle(); 
     if(button.innerHTML==p){
         button.innerHTML=[i]+'号身份';
