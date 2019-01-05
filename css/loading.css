@@ -12,7 +12,7 @@ html{
     flex: 1;
 }
 .col-xs-1{
-    width: 44rem !important;
+    width: 38rem !important;
 }
 .right{
     display: flex;
